@@ -14,6 +14,7 @@
 		3D3CC1F9216E4B020027A9F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D3CC1F7216E4B020027A9F2 /* LaunchScreen.storyboard */; };
 		3D3CC204216E4B020027A9F2 /* CafeteriaBetinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3CC203216E4B020027A9F2 /* CafeteriaBetinTests.swift */; };
 		3D3CC20F216E4B020027A9F2 /* CafeteriaBetinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3CC20E216E4B020027A9F2 /* CafeteriaBetinUITests.swift */; };
+		3D3CC223216E5B9F0027A9F2 /* Productos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3CC222216E5B9F0027A9F2 /* Productos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3D3CC20A216E4B020027A9F2 /* CafeteriaBetinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CafeteriaBetinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D3CC20E216E4B020027A9F2 /* CafeteriaBetinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeteriaBetinUITests.swift; sourceTree = "<group>"; };
 		3D3CC210216E4B020027A9F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D3CC222216E5B9F0027A9F2 /* Productos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Productos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +99,11 @@
 		3D3CC1ED216E4AFD0027A9F2 /* CafeteriaBetin */ = {
 			isa = PBXGroup;
 			children = (
-				3D3CC1EE216E4AFD0027A9F2 /* AppDelegate.swift */,
-				3D3CC1F0216E4AFD0027A9F2 /* ViewController.swift */,
-				3D3CC1F2216E4AFD0027A9F2 /* Main.storyboard */,
-				3D3CC1F5216E4B020027A9F2 /* Assets.xcassets */,
-				3D3CC1F7216E4B020027A9F2 /* LaunchScreen.storyboard */,
-				3D3CC1FA216E4B020027A9F2 /* Info.plist */,
+				3D3CC221216E4CFE0027A9F2 /* Models */,
+				3D3CC220216E4CEB0027A9F2 /* Views */,
+				3D3CC21F216E4CE20027A9F2 /* ViewControllers */,
+				3D3CC21E216E4CDC0027A9F2 /* App */,
+				3D3CC21D216E4CC40027A9F2 /* Resources */,
 			);
 			path = CafeteriaBetin;
 			sourceTree = "<group>";
@@ -123,6 +124,48 @@
 				3D3CC210216E4B020027A9F2 /* Info.plist */,
 			);
 			path = CafeteriaBetinUITests;
+			sourceTree = "<group>";
+		};
+		3D3CC21D216E4CC40027A9F2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3D3CC1F5216E4B020027A9F2 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3D3CC21E216E4CDC0027A9F2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3D3CC1FA216E4B020027A9F2 /* Info.plist */,
+				3D3CC1EE216E4AFD0027A9F2 /* AppDelegate.swift */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		3D3CC21F216E4CE20027A9F2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3D3CC1F0216E4AFD0027A9F2 /* ViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3D3CC220216E4CEB0027A9F2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3D3CC1F2216E4AFD0027A9F2 /* Main.storyboard */,
+				3D3CC1F7216E4B020027A9F2 /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		3D3CC221216E4CFE0027A9F2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3D3CC222216E5B9F0027A9F2 /* Productos.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +301,7 @@
 			files = (
 				3D3CC1F1216E4AFD0027A9F2 /* ViewController.swift in Sources */,
 				3D3CC1EF216E4AFD0027A9F2 /* AppDelegate.swift in Sources */,
+				3D3CC223216E5B9F0027A9F2 /* Productos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
